@@ -1,0 +1,21 @@
+/* CoursesSection.css */
+
+.course-card {
+	text-align: left;
+	background-color: rgb(184, 229, 255);
+	transition: transform 0.3s ease, border 0.3s ease;
+	border: 2px solid #000000;
+}
+
+.course-card:hover {
+	cursor: pointer;
+	background-color: lightskyblue;
+	transform: translateY(-5px);
+}
+
+.course-card h6 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3px;
+}

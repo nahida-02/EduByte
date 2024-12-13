@@ -1,0 +1,47 @@
+.blue-text {
+	color: blue;
+}
+.course-detail-background {
+	background-color: #ffffff;
+	box-shadow: rgb(255, 255, 255) 0px 0px 4px 0px;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+.column-border {
+	border-right: 1px solid #000;
+}
+.row-border {
+	border: 3px solid #000000;
+}
+.hover-effect {
+	background-color: rgb(182, 224, 251);
+	transition: transform 0.3s ease, border 0.3s ease;
+}
+.hover-effect:hover {
+	background-color: rgb(140, 207, 250);
+	transform: translateY(-5px);
+}
+.block-effect {
+	border: 3px solid #000000;
+	background-color: #d7f1c5;
+}
+.block-effect:hover {
+	background-color: blanchedalmond;
+	cursor: pointer;
+}
+.bold-text {
+	font-weight: bold;
+}
+.custom-link {
+	color: inherit;
+	text-decoration: none;
+}
+.hover-translate {
+	transition: transform 0.3s ease;
+	font-weight: normal;
+}
+
+.hover-translate:hover {
+	font-weight: bolder;
+	transform: translateY(-5px); /* Adjust the translation distance as needed */
+}
